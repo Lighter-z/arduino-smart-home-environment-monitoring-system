@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a12146.yanwusj2.Second_activity">
+
+
+    <com.example.a12146.yanwusj2.MySurfaceView2
+        android:id="@+id/MySurfaceView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="0dp" />
+
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_x="17dp"
+        android:layout_y="256dp"
+        android:background="@drawable/zuo2" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_x="447dp"
+        android:layout_y="256dp"
+        android:background="@drawable/you" />
+</AbsoluteLayout>

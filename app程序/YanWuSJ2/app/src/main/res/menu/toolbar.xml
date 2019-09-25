@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/camera"
+        android:title="摄像头"
+        app:showAsAction="always"
+        />
+
+    <item
+
+        android:title="检测器"
+        android:icon="@drawable/yy1"
+        app:showAsAction="always"
+        />
+
+
+</menu>

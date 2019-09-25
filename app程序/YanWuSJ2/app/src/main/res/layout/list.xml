@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--地块1的布局-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#f2f2f2"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:paddingTop="14dp"
+            android:paddingRight="12dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="#ccffff"
+                    android:gravity="center"
+                    android:text="烟雾检测"
+                    android:textSize="25dp" />
+
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="5dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/shuiwei_1"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:text="舵机"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:background="#ccffff"
+                    />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="90dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/tt"
+                    android:text=""
+                    android:textSize="25dp"
+                    android:textOn="ON"
+                    />
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="90dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/kk"
+                    android:text=""
+                    android:textSize="25dp"
+                    android:textOn="ON"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="5dp"
+
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#f2f2f2"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:paddingTop="14dp"
+            android:paddingRight="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_x="0dp"
+                android:layout_y="118dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text=" 控制方式 "
+                            android:layout_gravity="center"
+                            android:textSize="25dp"
+                            android:background="#ccffff"/>
+
+
+                        <TextView
+                            android:layout_width="5dp"
+                            android:layout_height="10dp" />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="80dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_gravity="center"
+                            android:background="#26bcbc"
+                            android:text="自动"
+                            android:textSize="25dp"
+                            android:textOn="ON"
+                            />
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="80dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center"
+                            android:background="#19cccc"
+                            android:text="手动"
+                            android:textSize="25dp"
+                            android:textOn="ON"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_x="0dp"
+                android:layout_y="118dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="160dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="      风扇         "
+                            android:textSize="25dp"
+                            android:background="#ccffff"/>
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="10dp" />
+
+                        <Switch
+                            android:id="@+id/gongshui_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textOff="OFF"
+                            android:textOn="ON"
+                            android:thumb="@drawable/thumb"
+                            android:track="@drawable/track" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_x="0dp"
+                android:layout_y="118dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="160dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:text="      蜂鸣器         "
+                            android:textSize="25dp"
+                            android:background="#ccffff"/>
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="10dp" />
+
+                        <Switch
+                            android:id="@+id/gongshui_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:thumb="@drawable/thumb"
+                            android:track="@drawable/track"
+                            android:layout_gravity="center"
+                            android:textOn="ON"
+                            android:textOff="OFF"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#f2f2f2"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:paddingTop="14dp"
+            android:paddingRight="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_x="0dp"
+            android:layout_y="118dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="     烟雾值     "
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:background="#ccffff"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="10dp" />
+            <TextView
+                android:id="@+id/ttv1"
+                android:layout_height="wrap_content"
+                android:layout_width="110dp"
+                android:background="#f2cbea"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+
+                />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="25dp"
+                android:textColor="@color/colorAccent"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
